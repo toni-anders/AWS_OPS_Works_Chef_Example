@@ -1,10 +1,10 @@
-name 'sample'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'all_rights'
-description 'Installs/Configures sample'
-long_description 'Installs/Configures sample'
-version '0.1.0'
+name 'nginx-demo'
+maintainer 'Toni Anders'
+maintainer_email 'toni.anders@th-brandenburg.de'
+description 'Installs/Configures nginx_demo'
+version '0.2.0'
+
+depends 'chef-client'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
